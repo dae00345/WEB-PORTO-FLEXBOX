@@ -1,0 +1,135 @@
+*{
+    color:white;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:grey;
+}
+/* font */
+p{
+    text-align: justify;
+}
+/* CONTAINER */
+.container{
+    display:flex;
+    flex-flow:column nowrap;
+}
+/* HEADER */
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:10px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.logo{
+    background-color:red;
+    padding:20px;
+    border-radius:15px 0 15px 0;
+}
+
+/* NAVBAR */
+nav ul{
+    display:flex;
+}
+nav li{
+    margin:0 5px;
+    list-style-type:none;
+    border:white solid 2px;
+    padding: 5px;
+    border-radius:5px 0 5px 0;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ------------------------------------------ */
+
+/* Profile */
+.profile-container{
+    background-color:black;
+    width:60%;
+    padding:20px;
+    margin:90px auto 5px auto;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 20px 0 20px 0;
+    flex-flow: row wrap;
+}
+.profile-img{
+    border-radius: 50%;
+    background-color:white;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border:solid red 3px;
+}
+figcaption{
+    width:70%;
+    margin: auto;
+}
+
+/* article */
+article{
+    width: 75%;
+    padding: 20px;
+    display:flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display:flex;
+    flex-flow: row wrap;
+    width:50%;
+}
+.isi-content{
+    margin: 3px auto;
+}
+aside{
+    width:45%;
+}
+.jdl-content{
+    text-align: center;
+}
+.article{
+    width: 75%;
+    padding: 20px;
+    margin: 15px auto;
+    background-color: black;
+    border-radius: 20px 0 20px 0;
+    
+}
+/* Gallery */
+.gallery-container{
+    padding:30px;
+    width: 75%;
+    margin: 15px auto;
+    background-color:black;
+    border-radius: 20px 0 20px 0;
+}
+.gallery-title{
+    text-align: center;
+}
+.gallery-items{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.img{
+    border-radius: 20px 0 20px 0;
+    margin-top: 13px;
+    width:200px;
+    height:200px;
+    background-color:white;
+}
