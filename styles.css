@@ -80,7 +80,7 @@ figcaption{
 
 /* article */
 article{
-    width: 75%;
+    width: 90%;
     padding: 20px;
     display:flex;
     flex-flow: row nowrap;
@@ -90,13 +90,23 @@ article{
 .content{
     display:flex;
     flex-flow: row wrap;
-    width:50%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 2;
+    border-radius: 10px;
+}
+section > *{
+    color: black;
 }
 .isi-content{
-    margin: 3px auto;
+    margin: 2px auto;
 }
 aside{
-    width:45%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 .jdl-content{
     text-align: center;
@@ -156,13 +166,6 @@ footer{
         display:flex;
         flex-direction: column;
     }
-    .content{
-        width:100%;
-    }
-    aside{
-        width:100%;
-
-    }
     .gallery-container{
         width:90%;
     }
@@ -176,4 +179,32 @@ footer{
         width:100px;
         height:100px;
     }
+    .logo{
+        display:none;
+    }
+    aside{
+        margin-left: 0;
+    }
+    nav{
+        flex: 1;
+    }
+
+    nav li{
+        padding: 10px;
+    }
+    nav ul{
+        justify-content: space-around;
+    }
+    .profile-img{
+        background-image: url(aset/logo.png);
+        border: white dashed 5px;
+        background-position: center;
+        background-size: cover;
+        background-position-x: -15px;
+        
+    }
+    content, aside{
+        margin-top: 15px;
+    }
+
 }
