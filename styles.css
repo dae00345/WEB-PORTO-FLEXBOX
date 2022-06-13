@@ -18,6 +18,9 @@ p{
     display:flex;
     flex-flow:column nowrap;
 }
+main{
+    margin: 90px auto;
+}
 
 /* HEADER */
 
@@ -69,7 +72,7 @@ nav li a:hover{
     background-color:black;
     width:60%;
     padding:20px;
-    margin:90px auto 5px auto;
+    margin:auto;
     display:flex;
     justify-content: space-around;
     border-radius: 20px 0 20px 0;
@@ -190,7 +193,11 @@ footer{
     background: black;
     display:flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    position: fixed;
+    width:100%;
+    left: 0;
+    bottom:0;
 }
 footer .logo{
 }
